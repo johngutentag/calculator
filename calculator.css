@@ -1,0 +1,74 @@
+body {
+    background-color: gray;
+}
+
+.mainBody {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 15px;
+
+}
+
+.resultScreen {
+    height: 150px;
+    width: 500px;
+    color: white;
+}
+.results {
+    text-align: right;
+    padding-top: 6%;
+    padding-right: 10%;
+    color: white;
+    font-size: 400%;
+
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    padding: 15px;
+    margin: 15px;
+}
+
+.buttons button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 250%;
+    font-weight: bold;
+    border-radius: 5vw;
+    
+}
+
+.basic {
+    background-color: lightgray;
+    color: black;
+    height: 10vw;
+    width: 10vw;
+}
+
+.operator {
+    background-color: orange;
+    color: white;
+    height: 10vw;
+    width: 10vw;
+}
+
+.number {
+    background-color: rgb(99, 99, 99);
+    color: white;
+    height: 10vw;
+    width: 10vw;
+    
+}
+
+.zero {
+    background-color: rgb(99, 99, 99);
+    color: white;
+    height: 10vw;
+    width: 22vw;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
