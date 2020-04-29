@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: white;
 }
 
 .mainBody {
@@ -12,17 +12,19 @@ body {
 
 }
 
-.resultScreen {
-    height: 150px;
+.screen {
+    height: 75px;
     width: 500px;
     color: white;
 }
 .results {
+    height: 75px;
     text-align: right;
-    padding-top: 6%;
+    padding-top: 10px;
     padding-right: 10%;
     color: white;
     font-size: 400%;
+    margin: 10px;
 
 }
 .buttons {
@@ -40,6 +42,8 @@ body {
     font-weight: bold;
     border-radius: 5vw;
     
+    max-height: 92.5px;
+    
 }
 
 .basic {
@@ -47,6 +51,7 @@ body {
     color: black;
     height: 10vw;
     width: 10vw;
+    max-width: 92.5px;
 }
 
 .operator {
@@ -54,6 +59,7 @@ body {
     color: white;
     height: 10vw;
     width: 10vw;
+    max-width: 92.5px;
 }
 
 .number {
@@ -61,6 +67,7 @@ body {
     color: white;
     height: 10vw;
     width: 10vw;
+    max-width: 92.5px;
     
 }
 
@@ -69,6 +76,7 @@ body {
     color: white;
     height: 10vw;
     width: 22vw;
+    max-width: 200px;
     grid-column-start: 1;
     grid-column-end: 3;
 }
